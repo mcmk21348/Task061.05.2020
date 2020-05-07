@@ -1,5 +1,5 @@
 class ContactList(list):
-    def init(self, name1):
+    def __init__(self, name1):
         self.name1 = name1
         print(name1)
     
